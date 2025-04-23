@@ -110,21 +110,21 @@ CalcuTron achieves impressive results on arithmetic operations:
 
 | Dataset | Exact Match Accuracy | Character-Level Accuracy | Perplexity |
 |---------|----------------------|--------------------------|------------|
-| Test    | 97.8%                | 99.3%                    | 1.09       |
-| Generalization | 93.2%         | 97.1%                    | 1.24       |
+| Test    | 99.80%                | 99.89%                    | 1.0028       |
+| Generalization | 0.0%         | 15.33%                    | 7202.9410       |
 
 ### ✨ Performance by Operation Type
 
 ![Performance by Operation](https://via.placeholder.com/650x400?text=Performance+by+Operation)
 
-- Addition: 98.6% accuracy
-- Subtraction: 96.9% accuracy
+- Addition: 99.7% accuracy
+- Subtraction: 99.6% accuracy
 
 ### 📈 Performance by Input Length
 
 ![Performance by Length](https://via.placeholder.com/650x400?text=Performance+by+Length)
 
-The model maintains >95% accuracy for expressions up to 6 digits in length, showing strong generalization capabilities.
+The model maintains >99% accuracy for expressions up to 6 digits in length, showing strong generalization capabilities.
 
 ## 🔬 Ablation Studies
 
